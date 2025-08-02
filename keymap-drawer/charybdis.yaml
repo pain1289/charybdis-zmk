@@ -33,7 +33,7 @@ layers:
   - {t: /, h: Pointer}
   - LEFT WIN
   - {t: '$$mdi:keyboard-space$$', h: Navigation}
-  - {t: '$$mdi:keyboard-esc$$', h: sticky}
+  - $$mdi:keyboard-esc$$
   - {t: RETURN, h: Numeral/Function}
   - {t: '$$mdi:backspace$$', h: Symbol}
   Numeral/Function:

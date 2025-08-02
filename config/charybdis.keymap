@@ -97,6 +97,11 @@
             bindings = <&kp BACKSLASH>;
             key-positions = <16 17>;
         };
+
+        pipe {
+            bindings = <&kp PIPE>;
+            key-positions = <2 3>;
+        };
     };
 
     keymap {

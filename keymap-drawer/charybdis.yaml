@@ -31,11 +31,11 @@ layers:
   - ','
   - .
   - {t: /, h: Pointer}
-  - {t: '$$mdi:keyboard-esc$$', h: Media}
+  - LEFT WIN
   - {t: '$$mdi:keyboard-space$$', h: Navigation}
-  - {t: Numeral/Function, h: sticky}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: Symbol, h: sticky}
+  - {t: '$$mdi:keyboard-esc$$', h: sticky}
+  - {t: RETURN, h: Numeral/Function}
+  - {t: '$$mdi:backspace$$', h: Symbol}
   Numeral/Function:
   - {t: ▽, type: trans}
   - F7
@@ -69,8 +69,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
+  - {type: held}
   - '0'
   Symbol:
   - '~'
@@ -144,42 +144,6 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  Media:
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - $$mdi:bluetooth-off$$
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - $$mdi:bluetooth-off$$
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - $$mdi:skip-previous$$
-  - $$mdi:volume-low$$
-  - $$mdi:volume-off$$
-  - $$mdi:volume-high$$
-  - $$mdi:skip-next$$
-  - $$mdi:skip-previous$$
-  - $$mdi:volume-low$$
-  - $$mdi:volume-off$$
-  - $$mdi:volume-high$$
-  - $$mdi:skip-next$$
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {type: held}
-  - PLAY PAUSE
-  - STOP
-  - STOP
-  - PLAY PAUSE
   Pointer:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -202,21 +166,21 @@ layers:
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-command$$
   - {type: held}
-  - Scroll
-  - Sniper
+  - Base
+  - Base
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: Sniper, h: toggle}
-  - {t: Scroll, h: toggle}
+  - {t: Base, h: toggle}
+  - {t: Base, h: toggle}
   - {t: ▽, type: trans}
   - '&mkp RCLK'
   - '&mkp LCLK'
   - '&mkp MCLK'
   - '&mkp MCLK'
   - '&mkp LCLK'
-  Scroll:
+  media:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -227,55 +191,19 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - $$mdi:skip-previous$$
+  - $$mdi:skip-next$$
+  - $$mdi:volume-low$$
+  - VOLUME UP
+  - PLAY PAUSE
+  - {t: ▽, type: trans}
+  - LEFT ARROW
+  - UP ARROW
+  - DOWN ARROW
+  - RIGHT ARROW
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {type: held}
-  - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  Sniper:
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {type: held}
-  - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -307,3 +235,21 @@ combos:
 - p: [26, 27]
   k: '&mkp MCLK'
   l: [Base]
+- p: [3, 4]
+  k: (
+- p: [5, 6]
+  k: )
+- p: [13, 14]
+  k: '['
+- p: [15, 16]
+  k: ']'
+- p: [23, 24]
+  k: '{'
+- p: [25, 26]
+  k: '}'
+- p: [12, 13]
+  k: /
+- p: [16, 17]
+  k: \
+- p: [2, 3]
+  k: '|'

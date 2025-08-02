@@ -58,12 +58,12 @@
     combos {
         compatible = "zmk,combos";
 
-        parent_left {
+        left_parent {
             bindings = <&kp LEFT_PARENTHESIS>;
             key-positions = <3 4>;
         };
 
-        parent_right {
+        right_parent {
             bindings = <&kp RIGHT_PARENTHESIS>;
             key-positions = <5 6>;
         };

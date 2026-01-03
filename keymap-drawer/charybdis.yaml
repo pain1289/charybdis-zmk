@@ -255,6 +255,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
 combos:
+- p: [13, 14]
+  k: {t: Game, h: toggle}
+  l: [Base, Game]
 - p: [11, 12]
   k: '&mkp LCLK'
   l: [Base]

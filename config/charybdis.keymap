@@ -100,7 +100,7 @@
             >;
         };
 
-        Media {
+        Game {
             label = "Game";
             bindings = <
               &trans     &trans        &bt BT_CLR_ALL &trans       &trans            &trans      &trans        &bt BT_CLR_ALL  &trans        &trans

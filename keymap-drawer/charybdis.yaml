@@ -255,7 +255,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
 combos:
-- p: [13, 14]
+- p: [5, 15]
   k: {t: Game, h: toggle}
   l: [Base, Game]
 - p: [11, 12]

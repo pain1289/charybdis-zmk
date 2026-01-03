@@ -309,10 +309,10 @@ path.combo {
 </a><text x="0" y="24" class="key hold">sticky</text>
 </g>
 <g class="combo combopos-0">
-<rect rx="6" ry="6" x="210" y="78" width="28" height="26" class="combo"/>
+<rect rx="6" ry="6" x="462" y="50" width="28" height="26" class="combo"/>
 <a href="#Game">
-<text x="224" y="91" class="combo tap layer-activator">Game</text>
-</a><text x="224" y="102" class="combo hold">toggle</text>
+<text x="476" y="63" class="combo tap layer-activator">Game</text>
+</a><text x="476" y="74" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-1">
 <rect rx="6" ry="6" x="98" y="74" width="28" height="26" class="combo"/>
@@ -934,10 +934,10 @@ path.combo {
 <text x="0" y="0" class="key tap">B</text>
 </g>
 <g class="combo combopos-0">
-<rect rx="6" ry="6" x="210" y="78" width="28" height="26" class="combo"/>
+<rect rx="6" ry="6" x="462" y="50" width="28" height="26" class="combo"/>
 <a href="#Game">
-<text x="224" y="91" class="combo tap layer-activator">Game</text>
-</a><text x="224" y="102" class="combo hold">toggle</text>
+<text x="476" y="63" class="combo tap layer-activator">Game</text>
+</a><text x="476" y="74" class="combo hold">toggle</text>
 </g>
 </g>
 </g>

@@ -103,9 +103,9 @@
         Game {
             label = "Game";
             bindings = <
-                &kp ESCAPE &kp Q &kp W    &kp E     &kp R          &none  &kp N5   &kp N6   &kp N7   &kp N8
-                &kp LCTRL  &kp A &kp S    &kp D     &kp F          &none  &kp N1   &kp N2   &kp N3   &kp N4
-                &kp LSHIFT &kp Z &kp X    &kp C     &kp V          &none  &mkp MB1 &mkp MB2 &mkp MB3 &none
+                &kp ESCAPE &kp Q &kp W    &kp E     &kp R          &kp F5 &kp N5   &kp N6   &kp N7   &kp N8
+                &kp LSHFT  &kp A &kp S    &kp D     &kp F          &none  &kp N1   &kp N2   &kp N3   &kp N4
+                &kp LCTRL  &kp Z &kp X    &kp C     &kp V          &kp I  &mkp MB1 &mkp MB2 &mkp MB3 &kp G
                                  &kp LALT &kp SPACE &kp M          &kp T  &kp B 
             >;
         };
